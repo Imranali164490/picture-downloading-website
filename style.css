@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --all-fonts-family: "Inter", sans-serif;
+}
+/* Body Stylying */
+body {
+  background-color: rgb(86, 78, 78);
+  width: 100%;
+}
+/* Header Styling */
+.header {
+  position: sticky;
+  display: flex;
+  margin: 10px 0px;
+  padding: 0px 20px;
+}
+
+header .header .logo img {
+  width: 70px;
+  border-radius: 100%;
+  filter: invert(80%);
+}
+/* Navigation Styling */
+.navigation {
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  padding: 20px 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  font-weight: bolder;
+  font-size: 16px;
+  font-family: var(--all-fonts-family);
+  color: white;
+  border: 2px solid black;
+  border-radius: 40px;
+  background-color: rgb(141, 68, 76);
+}
+/* Hover Effect  */
+nav ul li a:hover {
+  /* font-size: 18px; */
+  background-color: rgb(71, 11, 11);
+  color: black;
+}
+
+.bgimage {
+  width: 100%;
+  height: 50vh;
+  /* border: 2px solid black; */
+  /* box-shadow:20px 20px 20px gray ; */
+}
+.bgimage img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  border-radius: 5px;
+  /* border: 1px soild white; */
+  box-shadow: 10px 10px 50px greenyellow;
+}
+#section-2 h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: var(--all-fonts-family);
+  text-shadow: 10px 10px 8px grey;
+}
+#box-1 {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+#box-1 .boxes {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  height: 198px;
+  padding: 1px;
+  margin: 1px;
+}
+#box-1 .boxes img {
+  border-radius: 10px;
+  width: 164px;
+  height: 166px;
+}
+#box-1 .boxes button {
+  width: 164px;
+  height: 30px;
+  background-color: salmon;
+  border-radius: 10px;
+}
+
+#box-1 .boxes button a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 2px;
+  color: red;
+}
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  text-align: center;
+  
+}
+footer .footer p{
+  background: #2c3e50;
+  color: white;
+}
